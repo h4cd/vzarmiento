@@ -1,4 +1,4 @@
-import time
+﻿import time
 import pandas as pd
 import numpy as np
 
@@ -25,7 +25,7 @@ def get_filters():
 
 
     while True:
-      city = input("\n¿What city do you want to see? New York City, Chicago or Washington?: \n")
+      city = input("\n¿what city do you want to see? new york city, chicago or Washington?: \n".title())
       if city not in ('New York City', 'Chicago', 'Washington'):
         print("Error. Try again please.")
         continue
